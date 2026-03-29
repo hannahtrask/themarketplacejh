@@ -1,0 +1,15 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="128" cy="128" r="112" fill="#E8B451" />
+  <text
+    x="128"
+    y="128"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="#FFFBF7"
+    font-family="Orelega One, serif"
+    font-size="116"
+    letter-spacing="0"
+  >
+    M
+  </text>
+</svg>
