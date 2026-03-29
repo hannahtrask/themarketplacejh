@@ -8,9 +8,16 @@ export function SiteHeader() {
         <Link href="/" className="text-xl font-display text-browndark">
           The Marketplace JH
         </Link>
-        <nav aria-label="Primary" className="flex flex-wrap items-center gap-4 text-sm text-browndark sm:gap-6">
+        <nav
+          aria-label="Primary"
+          className="flex flex-wrap items-center gap-4 text-sm text-browndark sm:gap-6"
+        >
           {navigationLinks.map((link) => (
-            <Link key={link.href} href={link.href} className="transition-colors hover:text-terracotta">
+            <Link
+              key={link.href}
+              href={link.href}
+              className="transition-colors hover:text-terracotta"
+            >
               {link.label}
             </Link>
           ))}

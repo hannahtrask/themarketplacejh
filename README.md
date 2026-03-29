@@ -12,11 +12,11 @@ A warm, community-first marketplace website for Jackson freelancers and small bu
 ## Local Development
 
 1. Install dependencies:
-	npm install
+   npm install
 2. Start the dev server:
-	npm run dev
+   npm run dev
 3. Open:
-	http://localhost:3000
+   http://localhost:3000
 
 ## Build and Production Check
 

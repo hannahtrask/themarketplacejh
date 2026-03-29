@@ -16,7 +16,9 @@ export function ProcessSteps({ steps }: ProcessStepsProps) {
             <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-terracotta text-sm font-bold text-whitewarm">
               {step.iconLabel}
             </span>
-            <span className="text-xs uppercase tracking-[0.2em] text-graywarm">Step {index + 1}</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-graywarm">
+              Step {index + 1}
+            </span>
           </div>
           <h3 className="text-2xl font-display text-browndark">{step.title}</h3>
           <p className="mt-3 text-sm leading-relaxed text-graywarm">{step.description}</p>
