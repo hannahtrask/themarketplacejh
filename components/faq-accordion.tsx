@@ -1,6 +1,7 @@
 "use client";
 
 import { FAQItem } from "@/lib/types";
+import Link from "next/link";
 import { useState } from "react";
 
 type FAQAccordionProps = {
@@ -9,6 +10,31 @@ type FAQAccordionProps = {
 
 export function FAQAccordion({ items }: FAQAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+
+  function renderAnswer(answer: string) {
+    const instagramHandle = "@themarketplacejh";
+
+    if (!answer.includes(instagramHandle)) {
+      return answer;
+    }
+
+    const [before, after] = answer.split(instagramHandle);
+
+    return (
+      <>
+        {before}
+        <Link
+          href="https://www.instagram.com/themarketplacejh/"
+          target="_blank"
+          rel="noreferrer"
+          className="font-medium text-terracotta underline decoration-2 underline-offset-4 transition-colors hover:text-[#b95d3e]"
+        >
+          {instagramHandle}
+        </Link>
+        {after}
+      </>
+    );
+  }
 
   return (
     <div className="space-y-3">
@@ -30,7 +56,9 @@ export function FAQAccordion({ items }: FAQAccordionProps) {
               <span className="text-xl font-semibold text-terracotta">{isOpen ? "-" : "+"}</span>
             </button>
             {isOpen ? (
-              <p className="mt-4 text-sm leading-relaxed text-graywarm">{item.answer}</p>
+              <p className="mt-4 text-sm leading-relaxed text-graywarm">
+                {renderAnswer(item.answer)}
+              </p>
             ) : null}
           </article>
         );
