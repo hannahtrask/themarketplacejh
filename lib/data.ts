@@ -1,11 +1,10 @@
 import { EventItem, FAQItem, Member, ProcessStep } from "@/lib/types";
 
 export const navigationLinks = [
-  { href: "/", label: "Home" },
   { href: "/directory", label: "Directory" },
   { href: "/how-it-works", label: "How It Works" },
-  { href: "/events", label: "Events" },
-  { href: "/apply", label: "Apply" }
+  // { href: "/events", label: "Events" },
+  { href: "/apply", label: "Join" }
 ];
 
 export const valueProps = [
@@ -28,19 +27,19 @@ export const valueProps = [
 
 export const processSteps: ProcessStep[] = [
   {
-    title: "Submit a Request",
+    title: "Submit a request or browse the directory",
     description: "Tell us what you need. Share your budget and timeline.",
-    iconLabel: "S"
+    iconLabel: "1"
   },
   {
-    title: "We Match You",
-    description: "We find the right person from our community.",
-    iconLabel: "M"
+    title: "We match you",
+    description: "We find the right person from our community, or you reach out directly.",
+    iconLabel: "2"
   },
   {
-    title: "You Collaborate",
-    description: "Work directly together. 8% commission goes back to community events.",
-    iconLabel: "C"
+    title: "You collaborate",
+    description: "Work directly together, get your project done!",
+    iconLabel: "3"
   }
 ];
 

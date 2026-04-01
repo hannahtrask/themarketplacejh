@@ -12,9 +12,9 @@ export default function HowItWorksPage() {
     <>
       <Section>
         <header className="mb-10">
-          <h1 className="font-display text-4xl text-browndark sm:text-5xl">How It Works</h1>
+          <h1 className="font-display text-4xl text-browndark sm:text-5xl">How it works</h1>
           <p className="mt-3 max-w-2xl text-graywarm">
-            A simple way to connect good people with good work.
+            A simple way to connect good people with good work. Here&apos;s how it works:
           </p>
         </header>
         <ProcessSteps steps={processSteps} />

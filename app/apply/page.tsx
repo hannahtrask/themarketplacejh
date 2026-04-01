@@ -19,7 +19,7 @@ export default function ApplyPage() {
         src="https://airtable.com/embed/appvMFXHWpCfV4lpC/paghh4ptcBbaTYbgp/form"
         width="100%"
         height="533"
-        style={{ background: "transparent", border: "1px solid #ccc" }}
+        style={{ background: "transparent", border: "1px solid #ccc", borderRadius: "8px" }}
       />
     </Section>
   );

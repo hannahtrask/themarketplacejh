@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Orelega_One, Work_Sans } from "next/font/google";
 import "./globals.css";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
 
 const orelegaOne = Orelega_One({
   weight: "400",
@@ -34,7 +36,11 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${orelegaOne.variable} ${workSans.variable}`}>
       <body className="font-body antialiased">
-        <main>{children}</main>
+        <div className="min-h-screen bg-market-glow">
+          <SiteHeader />
+          <main>{children}</main>
+          <SiteFooter />
+        </div>
       </body>
     </html>
   );
