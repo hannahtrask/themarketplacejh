@@ -1,8 +1,15 @@
 import Image from "next/image";
-import { Member } from "@/lib/types";
 
 type MemberCardProps = {
-  member: Member;
+  member: {
+    id: string | number;
+    name: string;
+    skills: string[];
+    bio: string;
+    portfolio: string;
+    email: string;
+    image: string;
+  };
 };
 
 export function MemberCard({ member }: MemberCardProps) {
