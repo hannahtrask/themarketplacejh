@@ -23,7 +23,7 @@ export default async function DirectoryPage() {
   return (
     <Section>
       <header className="mb-10">
-        <h1 className="font-display text-4xl text-browndark sm:text-5xl">Creative Directory</h1>
+        <h1 className="font-display text-4xl text-browndark sm:text-5xl">The Directory</h1>
         <p className="mt-3 max-w-2xl text-graywarm">
           Browse local freelancers and small business owners in Jackson building meaningful work.
         </p>
