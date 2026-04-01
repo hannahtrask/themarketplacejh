@@ -14,9 +14,9 @@ export const valueProps = [
       "See freelancers and small business owners in jackson who are building something real. Find the right fit for your project."
   },
   {
-    title: "Get matched with work",
+    title: "Connect and collaborate",
     description:
-      "Submit what you need. We'll help you find the right person. You collaborate directly."
+      "Reach out directly to connect and collaborate. Make local connections that lead to real work and relationships."
   },
   {
     title: "Join community events",
@@ -81,6 +81,6 @@ export const events: EventItem[] = [
     location: "Jackson, WY (TBA)",
     description:
       "Come meet the founding members of The Marketplace. No pitch. No pressure. Just community.",
-    rsvpUrl: "mailto:hello@themarketplacejh.com?subject=RSVP%20Founding%20Member%20Meetup"
+    rsvpUrl: "mailto:hello@wearesagebrush.com?subject=RSVP%20Founding%20Member%20Meetup"
   }
 ];
