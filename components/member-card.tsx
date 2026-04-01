@@ -2,7 +2,7 @@ import Image from "next/image";
 
 type MemberCardProps = {
   member: {
-    id: string | number;
+    id: string;
     name: string;
     skills: string[];
     bio: string;

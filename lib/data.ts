@@ -27,13 +27,14 @@ export const valueProps = [
 
 export const processSteps: ProcessStep[] = [
   {
-    title: "Submit a request or browse the directory",
-    description: "Tell us what you need. Share your budget and timeline.",
+    title: "Browse the directory",
+    description: "Look for what you need and find the right person for your project.",
     iconLabel: "1"
   },
   {
-    title: "We match you",
-    description: "We find the right person from our community, or you reach out directly.",
+    title: "Connect and collaborate",
+    description:
+      "Once you find the right person from our community, reach out directly to start collaborating.",
     iconLabel: "2"
   },
   {

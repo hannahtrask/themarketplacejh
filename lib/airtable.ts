@@ -2,7 +2,7 @@ const AIRTABLE_TOKEN = process.env.AIRTABLE_API_KEY;
 const BASE_ID = process.env.NEXT_PUBLIC_AIRTABLE_BASE_ID;
 const TABLE_NAME = process.env.AIRTABLE_TABLE_NAME;
 
-export interface Member {
+interface AirtableMember {
   id: string;
   name: string;
   skills: string[];
@@ -14,7 +14,7 @@ export interface Member {
   active: boolean;
 }
 
-export async function getMembers(): Promise<Member[]> {
+export async function getMembers(): Promise<AirtableMember[]> {
   if (!AIRTABLE_TOKEN || !BASE_ID || !TABLE_NAME) {
     console.error("Missing Airtable environment variables");
     return [];
@@ -53,7 +53,7 @@ export async function getMembers(): Promise<Member[]> {
   }
 }
 
-export async function getMemberById(id: string): Promise<Member | null> {
+export async function getMemberById(id: string): Promise<AirtableMember | null> {
   if (!AIRTABLE_TOKEN || !BASE_ID || !TABLE_NAME) {
     return null;
   }
