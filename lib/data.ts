@@ -10,18 +10,19 @@ export const navigationLinks = [
 
 export const valueProps = [
   {
-    title: "Browse a Vetted Directory",
+    title: "Browse the directory",
     description:
       "See freelancers and small business owners in jackson who are building something real. Find the right fit for your project."
   },
   {
-    title: "Get Matched",
-    description: "Submit what you need. We find the right person. You collaborate directly."
+    title: "Get matched with work",
+    description:
+      "Submit what you need. We'll help you find the right person. You collaborate directly."
   },
   {
-    title: "Join Community Events",
+    title: "Join community events",
     description:
-      "Monthly gatherings where freelancers and small business owners meet, share work, and build real connections."
+      "Monthly gatherings where freelancers and small business owners meet, share work, and build community."
   }
 ];
 
@@ -54,25 +55,15 @@ export const faqs: FAQItem[] = [
     answer:
       "Anyone creating something real. Designers, developers, artists, writers, marketers, illustrators, bakers, jewelers-if you're building and want community + work opportunities, you're in."
   },
-  // {
-  //     question: "What's the 8% commission?",
-  //     answer:
-  //         "When someone gets matched with work through The Marketplace, we take 8% of the project fee. It goes directly back into community events and keeping the platform running."
-  // },
-  // {
-  //     question: "How do I submit a request?",
-  //     answer:
-  //         "Go to the home page and click 'Submit a Request'. Tell us what you need, your budget, and timeline. We'll match you with the right person."
-  // },
-  // {
-  //     question: "How do I become a directory member?",
-  //     answer:
-  //         "Click 'Apply' at the top of the site. Tell us about yourself, your work, and why you're interested. We'll confirm and add you to the directory."
-  // },
+  {
+    question: "How do I get listed in the directory?",
+    answer:
+      "Click 'Get listed in the directory' at the top of the site. Tell us about yourself, your work, and why you're interested. We'll confirm and add you to the directory."
+  },
   {
     question: "Are there membership fees?",
     answer:
-      "No. Being in the directory and part of the community is completely free. Events are free unless otherwise advertised. The only cost is the 8% commission if you find work through The Marketplace."
+      "No! Being in the directory and part of the community is completely free. Events are free unless otherwise advertised."
   },
   {
     question: "When are events?",

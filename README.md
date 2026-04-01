@@ -48,18 +48,3 @@ Use Node.js 22 for this project.
 
 - `.nvmrc` and `.node-version` are set to `22`.
 - `package.json` has an `engines` constraint for Node 22.
-
-## Deploy to Vercel
-
-1. Push this project to a Git repository (GitHub, GitLab, or Bitbucket).
-2. In Vercel, click Add New Project and import the repository.
-3. Vercel auto-detects Next.js settings.
-4. Add environment variables from `.env.local` in Vercel Project Settings (Environment Variables).
-5. Click Deploy.
-6. Connect your custom domain `themarketplacejh.com` in Vercel Domain settings if not already connected.
-
-## Notes
-
-- Placeholder images are in `public/images`.
-- Swap `hero-placeholder.svg` and `member-placeholder.svg` with your real golden-hour photos when ready.
-- Directory, events, and FAQ content are hardcoded for launch.

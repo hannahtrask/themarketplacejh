@@ -1,4 +1,3 @@
-import { ApplyForm } from "@/components/apply-form";
 import { Section } from "@/components/section";
 
 export const metadata = {
@@ -15,7 +14,13 @@ export default function ApplyPage() {
           contribute.
         </p>
       </header>
-      <ApplyForm />
+      <iframe
+        className="airtable-embed"
+        src="https://airtable.com/embed/appvMFXHWpCfV4lpC/paghh4ptcBbaTYbgp/form"
+        width="100%"
+        height="533"
+        style={{ background: "transparent", border: "1px solid #ccc" }}
+      />
     </Section>
   );
 }

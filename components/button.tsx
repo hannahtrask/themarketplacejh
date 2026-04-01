@@ -7,6 +7,8 @@ type ButtonProps = {
   children: ReactNode;
   variant?: "primary" | "secondary" | "outline";
   className?: string;
+  target?: string;
+  rel?: string;
 };
 
 const variantStyles = {
@@ -18,10 +20,19 @@ const variantStyles = {
     "bg-transparent text-browndark border border-browndark hover:bg-cream focus-visible:ring-browndark"
 };
 
-export function Button({ href, children, variant = "primary", className }: ButtonProps) {
+export function Button({
+  href,
+  children,
+  variant = "primary",
+  className,
+  target,
+  rel
+}: ButtonProps) {
   return (
     <Link
       href={href}
+      target={target}
+      rel={target === "_blank" ? (rel ?? "noreferrer") : rel}
       className={cn(
         "inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold tracking-wide transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-whitewarm",
         variantStyles[variant],
