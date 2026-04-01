@@ -52,7 +52,7 @@ export default function HomePage() {
         <div className="rounded-3xl border border-warmgold/40 bg-cream p-2 text-center shadow-card sm:p-8">
           <h2 className="font-display text-4xl text-browndark">Ready to be part of something?</h2>
           <p className="mx-auto mt-2 max-w-2xl text-graywarm">
-            Founding members launching soon. Let us know you're interested in being part of the
+            Founding members launching soon. Let us know you&apos;re interested in being part of the
             community, in the meantime, get yourself listed in the{" "}
             <a
               href="/apply"
@@ -62,6 +62,7 @@ export default function HomePage() {
             </a>{" "}
             to start finding work .
           </p>
+          s
           <div className="mt-7">
             <Button
               href="https://airtable.com/appiBhj91PpTkH2ZL/pagsAoHnoDW6MRHC0/form"
