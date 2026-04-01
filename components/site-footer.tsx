@@ -31,7 +31,21 @@ export function SiteFooter() {
           >
             @themarketplacejh
           </Link>
-          <p>&copy; 2026 The Marketplace JH</p>
+          <div className="flex flex-wrap items-center gap-4">
+            <Link
+              href="/privacy-policy"
+              className="text-browndark transition-colors hover:text-terracotta"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href="/terms-and-conditions"
+              className="text-browndark transition-colors hover:text-terracotta"
+            >
+              Terms and Conditions
+            </Link>
+            <p>&copy; 2026 The Marketplace JH</p>
+          </div>
         </div>
       </div>
     </footer>
