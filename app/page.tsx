@@ -59,8 +59,8 @@ export default function HomePage() {
               className="font-semibold text-terracotta underline decoration-2 underline-offset-4"
             >
               directory
-            </a>
-            .
+            </a>{" "}
+            to start finding work .
           </p>
           <div className="mt-7">
             <Button
