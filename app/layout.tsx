@@ -59,10 +59,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/workspace.jpg",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "The Marketplace JH community"
+        alt: "The Marketplace JH Jackson freelancer directory"
       }
     ]
   },
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     title: "The Marketplace JH | Jackson Freelancer Directory",
     description:
       "Connect with freelancers and small business owners in Jackson, WY. Browse the directory, join events, and get listed.",
-    images: ["/images/workspace.jpg"]
+    images: ["/opengraph-image"]
   }
 };
 

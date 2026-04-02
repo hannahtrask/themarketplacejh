@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Button } from "@/components/button";
 import { Section } from "@/components/section";
 import { ValuePropCard } from "@/components/value-prop-card";
@@ -64,14 +65,14 @@ export default function HomePage() {
           <h2 className="font-display text-4xl text-browndark">Ready to be part of something?</h2>
           <p className="mx-auto mt-2 max-w-2xl text-graywarm">
             Founding members launching soon. Let us know you&apos;re interested in being part of the
-            community, in the meantime, get yourself listed in the{" "}
-            <a
+            community. In the meantime, get yourself listed in the{" "}
+            <Link
               href="/apply"
               className="font-semibold text-terracotta underline decoration-2 underline-offset-4"
             >
-              directory
-            </a>{" "}
-            to start finding work .
+              Jackson freelancer directory application
+            </Link>{" "}
+            to start finding local client work.
           </p>
           <div className="mt-7">
             <Button
