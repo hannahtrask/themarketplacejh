@@ -1,9 +1,19 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import { Button } from "@/components/button";
 import { Section } from "@/components/section";
 import { ValuePropCard } from "@/components/value-prop-card";
 import { faqs, valueProps } from "@/lib/data";
 import { FAQAccordion } from "@/components/faq-accordion";
+
+export const metadata: Metadata = {
+  title: "The Marketplace JH | Jackson Freelancer Directory",
+  description:
+    "A community for Jackson, WY freelancers and small business owners. Browse the directory, join events, and get listed.",
+  alternates: {
+    canonical: "/"
+  }
+};
 
 export default function HomePage() {
   return (

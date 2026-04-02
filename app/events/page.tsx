@@ -1,9 +1,15 @@
 import { EventCard } from "@/components/event-card";
 import { Section } from "@/components/section";
 import { events } from "@/lib/data";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Events | The Marketplace JH"
+export const metadata: Metadata = {
+  title: "Events",
+  description:
+    "Find upcoming community events for freelancers and small business owners in Jackson, WY.",
+  alternates: {
+    canonical: "/events"
+  }
 };
 
 export default function EventsPage() {

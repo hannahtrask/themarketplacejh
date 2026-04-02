@@ -1,7 +1,13 @@
 import { Section } from "@/components/section";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Apply | The Marketplace JH"
+export const metadata: Metadata = {
+  title: "Apply",
+  description:
+    "Apply to be listed in The Marketplace JH directory for Jackson, WY freelancers and small business owners.",
+  alternates: {
+    canonical: "/apply"
+  }
 };
 
 export default function ApplyPage() {

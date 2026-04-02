@@ -1,7 +1,13 @@
 import { Section } from "@/components/section";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Terms and Conditions | The Marketplace JH"
+export const metadata: Metadata = {
+  title: "Terms and Conditions",
+  description:
+    "Review the terms for using The Marketplace JH website and participating in the directory.",
+  alternates: {
+    canonical: "/terms-and-conditions"
+  }
 };
 
 export default function TermsAndConditionsPage() {

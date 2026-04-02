@@ -2,9 +2,15 @@ import { FAQAccordion } from "@/components/faq-accordion";
 import { ProcessSteps } from "@/components/process-steps";
 import { Section } from "@/components/section";
 import { faqs, processSteps } from "@/lib/data";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "How It Works | The Marketplace JH"
+export const metadata: Metadata = {
+  title: "How It Works",
+  description:
+    "Learn how The Marketplace JH connects Jackson freelancers and small business owners with opportunities and events.",
+  alternates: {
+    canonical: "/how-it-works"
+  }
 };
 
 export default function HowItWorksPage() {

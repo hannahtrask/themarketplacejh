@@ -1,7 +1,13 @@
 import { Section } from "@/components/section";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Privacy Policy | The Marketplace JH"
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "Read how The Marketplace JH collects and uses freelancer listing data for the public directory.",
+  alternates: {
+    canonical: "/privacy-policy"
+  }
 };
 
 export default function PrivacyPolicyPage() {

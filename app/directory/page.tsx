@@ -1,10 +1,15 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Section } from "@/components/section";
 import { MemberCard } from "@/components/member-card";
 import { getMembers } from "@/lib/airtable";
 
-export const metadata = {
-  title: "Directory | The Marketplace JH"
+export const metadata: Metadata = {
+  title: "Directory",
+  description: "Browse freelancer and small business profiles in Jackson, WY and connect directly.",
+  alternates: {
+    canonical: "/directory"
+  }
 };
 
 export default async function DirectoryPage() {
